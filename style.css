@@ -1,0 +1,25 @@
+* {
+    background: burlywood;
+}
+
+h1 {
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 8px;
+    margin: 5px;
+}
+
+#AntaletKlick {
+    margin: 10px;
+    padding: 5px;
+}
+
+#öka {
+    border-style: solid;
+    border-radius: 4px;
+    background: lightblue;
+    padding: 5px;
+    margin: 5px;
+}
