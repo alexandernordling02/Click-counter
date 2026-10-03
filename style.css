@@ -23,3 +23,11 @@ h1 {
     padding: 5px;
     margin: 5px;
 }
+
+#reset {
+    border-style: solid;
+    border-radius: 4px;
+    background: lightblue;
+    padding: 5px;
+    margin: 5px;
+}

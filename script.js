@@ -1,0 +1,1 @@
+let count = document.getElementById("AntaletKlick")
