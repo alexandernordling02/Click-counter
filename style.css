@@ -5,13 +5,27 @@ body {
 }             
 
 
-#AntaletKlick {
+p {
     margin: 10px;
     padding: 5px;
     text-align: center;
 }
 
+#count {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 #öka {
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    background: rebeccapurple;
+    padding: 5px;
+    margin: 5px;
+    color: whitesmoke;
+}
+
+#save {
     border: 2px solid whitesmoke;
     border-radius: 4px;
     background: rebeccapurple;
@@ -35,8 +49,18 @@ body {
     border-radius: 20px;
     width: fit-content;
     padding: 5px;
+    text-align: center;
 
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#öka, #reset, #save {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+#öka:active, #reset:active, #save:active {
+    transform: scale(0.92);
+    box-shadow: 0 0 15px rgba(255,255,255,0.4);
 }
