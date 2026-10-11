@@ -1,12 +1,8 @@
 body {
     background: black;
-    color: white;
-
-    display: flex;
-    justify-content: center;   /* centrerar horisontellt */
-    align-items: top;        /* centrerar vertikalt */
-    height: 100vh;              /* gör sidan lika hög som fönstret */                /* tar bort default-marginal */
-}
+    color: white;      
+    height: 100vh;
+}             
 
 
 #AntaletKlick {
@@ -16,24 +12,31 @@ body {
 }
 
 #öka {
-    border-style: solid;
+    border: 2px solid whitesmoke;
     border-radius: 4px;
     background: rebeccapurple;
     padding: 5px;
     margin: 5px;
+    color: whitesmoke;
 }
 
 #reset {
-    border-style: solid;
+    border: 2px solid whitesmoke;
     border-radius: 4px;
     background: rebeccapurple;
     padding: 5px;
     margin: 5px;
+    color: whitesmoke;
 }
 
 #card {
-    border: 1px solid black;
-    background: red;
+    border: 1px solid whitesmoke;
+    background: rebeccapurple;
     border-radius: 20px;
     width: fit-content;
+    padding: 5px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
